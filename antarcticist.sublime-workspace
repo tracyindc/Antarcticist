@@ -1,0 +1,435 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"left",
+				"left-column"
+			],
+			[
+				"float",
+				"floating_box"
+			],
+			[
+				"images",
+				"images"
+			],
+			[
+				"for",
+				"formattedCurrency"
+			],
+			[
+				"get",
+				"getValueEntered"
+			],
+			[
+				"comp",
+				"compareThem"
+			],
+			[
+				"b",
+				"bInput"
+			],
+			[
+				"light",
+				"light_switch"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"a",
+				"vertical-align"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"border-ri",
+				"border-right-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"style",
+				"border-style"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"none",
+				"none"
+			],
+			[
+				"blo",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */\n\n/*\n * What follows is the result of much research on cross-browser styling.\n * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,\n * Kroc Camen, and the H5BP dev community and team.\n */\n\n/* ==========================================================================\n   Base styles: opinionated defaults\n   ========================================================================== */\n\nhtml,\nbutton,\ninput,\nselect,\ntextarea {\n    color: #222;\n}\n\nhtml {\n    font-size: 1em;\n    line-height: 1.4;\n}\n\n/*\n * Remove text-shadow in selection highlight: h5bp.com/i\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n\n::-moz-selection {\n    background: #b3d4fc;\n    text-shadow: none;\n}\n\n::selection {\n    background: #b3d4fc;\n    text-shadow: none;\n}\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    background-color: white;\n}\n\n.wrapper {\n    width: 960px;\n    margin: 0 auto;\n}\n\n\n.box {\n    border: 2px solid black;\n    height: 50px;\n}\n\n#navcontainer ul li\n{\nlist-style-type: none;\npadding: 0;\nmargin: 0;\ndisplay: block;\nfloat: right;\nbackground: url(\"http://biphome.spray.se/karl10/images/navBarBg.gif\") repeat-x 20px;\nfont: 10px/20px \"Lucida Grande\", verdana, sans-serif;\ntext-align: center;\n}\n\n#navcontainer a\n{\ncolor: #000;\ntext-decoration: none;\ndisplay: block;\nwidth: 70px;\nborder-top: 1px solid #A8B090;\nborder-bottom: 1px solid #A8B090;\nborder-left: 1px solid #A8B090;\n}\n\n#navcontainer li#active { background: url(\"http://biphome.spray.se/karl10/images/navBarBgHover.gif\") repeat-x 20px; }\n#navcontainer a:hover { background: url(\"http://biphome.spray.se/karl10/images/navBarBgHover.gif\") repeat-x 20px; }\n\n.burger-menu {\n    display: none;\n}\n\n.hero {\n    margin-top: 2%;\n    height: 200px;\n}\n\n.main {\n    clear: left;\n}\n\n.main .box {\n    float: left;\n    width: 22%;\n    margin: 4% 4% 4% 0;\n}\n\n.main .box.last {\n    margin-right: 0;\n}\n\nfooter {\n    border: 2px solid black;\n    clear: left;\n    overflow: hidden;\n}\n\nfooter .box {\n    float: left;\n    height: 1.5em;\n    width: 28%;\n    margin: 4%;\n}\n\nfooter .box.middle {\n\n    margin: 4% 0;\n\n\n\n/*\n * A better looking default horizontal rule\n */\n\nhr {\n    display: block;\n    height: 1px;\n    border: 0;\n    border-top: 1px solid #ccc;\n    margin: 1em 0;\n    padding: 0;\n}\n\n/*\n * Remove the gap between images, videos, audio and canvas and the bottom of\n * their containers: h5bp.com/i/440\n */\n\naudio,\ncanvas,\nimg,\nvideo {\n    vertical-align: middle;\n}\n\n/*\n * Remove default fieldset styles.\n */\n\nfieldset {\n    border: 0;\n    margin: 0;\n    padding: 0;\n}\n\n/*\n * Allow only vertical resizing of textareas.\n */\n\ntextarea {\n    resize: vertical;\n}\n\n/* ==========================================================================\n   Browse Happy prompt\n   ========================================================================== */\n\n.browsehappy {\n    margin: 0.2em 0;\n    background: #ccc;\n    color: #000;\n    padding: 0.2em 0;\n}\n\n/* ==========================================================================\n   Author's custom styles\n   ========================================================================== */\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* ==========================================================================\n   Helper classes\n   ========================================================================== */\n\n/*\n * Image replacement\n */\n\n.ir {\n    background-color: transparent;\n    border: 0;\n    overflow: hidden;\n    /* IE 6/7 fallback */\n    *text-indent: -9999px;\n}\n\n.ir:before {\n    content: \"\";\n    display: block;\n    width: 0;\n    height: 150%;\n}\n\n/*\n * Hide from both screenreaders and browsers: h5bp.com/u\n */\n\n.hidden {\n    display: none !important;\n    visibility: hidden;\n}\n\n/*\n * Hide only visually, but have it available for screenreaders: h5bp.com/v\n */\n\n.visuallyhidden {\n    border: 0;\n    clip: rect(0 0 0 0);\n    height: 1px;\n    margin: -1px;\n    overflow: hidden;\n    padding: 0;\n    position: absolute;\n    width: 1px;\n}\n\n/*\n * Extends the .visuallyhidden class to allow the element to be focusable\n * when navigated to via the keyboard: h5bp.com/p\n */\n\n.visuallyhidden.focusable:active,\n.visuallyhidden.focusable:focus {\n    clip: auto;\n    height: auto;\n    margin: 0;\n    overflow: visible;\n    position: static;\n    width: auto;\n}\n\n/*\n * Hide visually and from screenreaders, but maintain layout\n */\n\n.invisible {\n    visibility: hidden;\n}\n\n/*\n * Clearfix: contain floats\n *\n * For modern browsers\n * 1. The space content is one way to avoid an Opera bug when the\n *    `contenteditable` attribute is included anywhere else in the document.\n *    Otherwise it causes space to appear at the top and bottom of elements\n *    that receive the `clearfix` class.\n * 2. The use of `table` rather than `block` is only necessary if using\n *    `:before` to contain the top-margins of child elements.\n */\n\n.clearfix:before,\n.clearfix:after {\n    content: \" \"; /* 1 */\n    display: table; /* 2 */\n}\n\n.clearfix:after {\n    clear: both;\n}\n\n/*\n * For IE 6/7 only\n * Include this rule to trigger hasLayout and contain floats.\n */\n\n.clearfix {\n    *zoom: 1;\n}\n\n/* ==========================================================================\n   EXAMPLE Media Queries for Responsive Design.\n   These examples override the primary ('mobile first') styles.\n   Modify as content requires.\n   ========================================================================== */\n\n@media only screen and (min-width: 35em) {\n    /* Style adjustments for viewports that meet the condition */\n}\n\n@media print,\n       (-o-min-device-pixel-ratio: 5/4),\n       (-webkit-min-device-pixel-ratio: 1.25),\n       (min-resolution: 120dpi) {\n    /* Style adjustments for high resolution devices */\n}\n\n@media screen and (max-width: 480px) {\n#headernav { float: none; width: auto;}\n#navigation li { float: none; margin-bottom: 4px; margin-left: 0; }\n#body { width: auto; margin-right: 0; margin-top: 0; min-height: 200px;}\n            }\n\n@media screen and (max-width: 480px) {\n#left-column {float: none; width: auto;}\n#main-column {float: none; width: auto;}\n#right-column {float: none; width: auto;}\n        }\n}\n\n.burger-menu {\n    display: none;\n}\n\n/* ==========================================================================\n   Print styles.\n   Inlined to avoid required HTTP connection: h5bp.com/r\n   ========================================================================== */\n\n@media print {\n    * {\n        background: transparent !important;\n        color: #000 !important; /* Black prints faster: h5bp.com/s */\n        box-shadow: none !important;\n        text-shadow: none !important;\n    }\n\n    a,\n    a:visited {\n        text-decoration: underline;\n    }\n\n    a[href]:after {\n        content: \" (\" attr(href) \")\";\n    }\n\n    abbr[title]:after {\n        content: \" (\" attr(title) \")\";\n    }\n\n    /*\n     * Don't show links for images, or javascript/internal links\n     */\n\n    .ir a:after,\n    a[href^=\"javascript:\"]:after,\n    a[href^=\"#\"]:after {\n        content: \"\";\n    }\n\n    pre,\n    blockquote {\n        border: 1px solid #999;\n        page-break-inside: avoid;\n    }\n\n    thead {\n        display: table-header-group; /* h5bp.com/t */\n    }\n\n    tr,\n    img {\n        page-break-inside: avoid;\n    }\n\n    img {\n        max-width: 100% !important;\n    }\n\n    @page {\n        margin: 0.5cm;\n    }\n\n    p,\n    h2,\n    h3 {\n        orphans: 3;\n        widows: 3;\n    }\n\n    h2,\n    h3 {\n        page-break-after: avoid;\n    }\n}\n",
+			"file": "css/main.css",
+			"file_size": 7517,
+			"file_write_time": 1402161791000000,
+			"settings":
+			{
+				"buffer_size": 7518,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n        <title></title>\n        <meta name=\"description\" content=\"\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n        <!-- Placed favicon.ico and apple-touch-icon.png in the root directory -->\n\n        <link rel=\"stylesheet\" href=\"css/normalize.css\">\n        <link rel=\"stylesheet\" href=\"css/main.css\">\n        <script src=\"js/vendor/modernizr-2.6.2.min.js\"></script>\n        <!--Script for Carousel -->\n<script id=\"img-wrapper-tmpl\" type=\"text/x-jquery-tmpl\">  \n    <div class=\"rg-image-wrapper\">\n        {{if itemsCount > 1}}\n            <div class=\"rg-image-nav\">\n                <a href=\"#\" class=\"rg-image-nav-prev\">Previous Image</a>\n                <a href=\"#\" class=\"rg-image-nav-next\">Next Image</a>\n            </div>\n        {{/if}}\n        <div class=\"rg-image\"></div>\n        <div class=\"rg-loading\"></div>\n        <div class=\"rg-caption-wrapper\">\n            <div class=\"rg-caption\" style=\"display:none;\">\n                <p></p>\n            </div>\n        </div>\n    </div>\n</script>\n\n    </head>\n    <body>\n    <div id=\"wrapper\" class=\"page-wrapper\">\n        <header>\n         <div id=\"navcontainer\">\n<ul id=\"navlist\">\n<li id=\"active\"><a href=\"#\" id=\"current\">My Story</a></li>\n<li><a href=\"#\">OAE Interviews</a></li>\n<li><a href=\"#\">Life on the Ice</a></li>\n</ul>\n</div>           \n            <div class=\"burger\"></div>\n        </header>\n        <div class=\"hero box\">\n        </div>\n        <div class=\"main\">\n            <div class=\"box\"></div>\n            <div class=\"box\"></div>\n            <div class=\"box\"></div>\n            <div class=\"box last\"></div>\n        </div>\n\n        <footer>\n            <div class=\"box\"></div>\n            <div class=\"box middle\"></div>\n            <div class=\"box\"></div>\n        </footer>\n\n\n        <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\"></script>\n        <script>window.jQuery || document.write('<script src=\"js/vendor/jquery-1.10.2.min.js\"><\\/script>')</script>\n        <script src=\"js/plugins.js\"></script>\n        <script src=\"js/main.js\"></script>\n\n        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n        <script>\n            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\n            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;\n            e=o.createElement(i);r=o.getElementsByTagName(i)[0];\n            e.src='//www.google-analytics.com/analytics.js';\n            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));\n            ga('create','UA-XXXXX-X');ga('send','pageview');\n        </script>\n    </body>\n</html>\n",
+			"file": "index.html",
+			"file_size": 2389,
+			"file_write_time": 1402248793000000,
+			"settings":
+			{
+				"buffer_size": 3022,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "HTML\n<div id=\"navcontainer\">\n<ul id=\"navlist\">\n<li id=\"active\"><a href=\"#\" id=\"current\">Item one</a></li>\n<li><a href=\"#\">Item two</a></li>\n<li><a href=\"#\">Item three</a></li>\n<li><a href=\"#\">Item four</a></li>\n<li><a href=\"#\">Item five</a></li>\n</ul>\n</div>\n\n#navcontainer ul li\n{\nlist-style-type: none;\npadding: 0;\nmargin: 0;\ndisplay: block;\nfloat: left;\nbackground: url(\"http://biphome.spray.se/karl10/images/navBarBg.gif\") repeat-x 20px;\nfont: 10px/20px \"Lucida Grande\", verdana, sans-serif;\ntext-align: center;\n}\n\n#navcontainer a\n{\ncolor: #000;\ntext-decoration: none;\ndisplay: block;\nwidth: 70px;\nborder-top: 1px solid #A8B090;\nborder-bottom: 1px solid #A8B090;\nborder-left: 1px solid #A8B090;\n}\n\n#navcontainer li#active { background: url(\"http://biphome.spray.se/karl10/images/navBarBgHover.gif\") repeat-x 20px; }\n#navcontainer a:hover { background: url(\"http://biphome.spray.se/karl10/images/navBarBgHover.gif\") repeat-x 20px; }\n\n\nCSS\n#navcontainer ul li\n{\nlist-style-type: none;\npadding: 0;\nmargin: 0;\ndisplay: block;\nfloat: left;\nbackground: url(\"http://biphome.spray.se/karl10/images/navBarBg.gif\") repeat-x 20px;\nfont: 10px/20px \"Lucida Grande\", verdana, sans-serif;\ntext-align: center;\n}\n\n#navcontainer a\n{\ncolor: #000;\ntext-decoration: none;\ndisplay: block;\nwidth: 70px;\nborder-top: 1px solid #A8B090;\nborder-bottom: 1px solid #A8B090;\nborder-left: 1px solid #A8B090;\n}\n\n#navcontainer li#active { background: url(\"http://biphome.spray.se/karl10/images/navBarBgHover.gif\") repeat-x 20px; }\n#navcontainer a:hover { background: url(\"http://biphome.spray.se/karl10/images/navBarBgHover.gif\") repeat-x 20px; }",
+			"settings":
+			{
+				"buffer_size": 1617,
+				"line_ending": "Unix",
+				"name": "HTML"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Convert Case: Swap Case"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/webteam/Downloads/Boxes/style.css",
+		"/Users/webteam/Downloads/Boxes/index.html",
+		"/Users/webteam/Google Drive/html5-boilerplate-4.3.0/index.html",
+		"/Users/webteam/Desktop/jQuery animation/egg_drop/index.html",
+		"/Users/webteam/Desktop/jQuery animation/egg_drop/css/style.css",
+		"/Users/webteam/Desktop/jQuery animation/egg_drop/js/main.js",
+		"/Users/webteam/Desktop/starter_code 6/startup_matchmaker_responsive/css/main copy.scss",
+		"/Users/webteam/Desktop/starter_code 2/startup_matchmaker/css/style.css",
+		"/Users/webteam/Desktop/Assignment 2/css/style.css",
+		"/Users/webteam/Desktop/starter_code 2/compare_that/index.html",
+		"/Users/webteam/Desktop/Assignment 2/domSelectors/css/style.css",
+		"/Users/webteam/Desktop/javascript-student/1-basic-event.html",
+		"/Users/webteam/Desktop/javascript-student/2-guessing-game.html",
+		"/Users/webteam/Desktop/javascript-student/3-cat-animation.html",
+		"/Users/webteam/Desktop/startup_matchmaker/index.html",
+		"/Users/webteam/Desktop/starter_code 2/startup_matchmaker/index.html",
+		"/Users/webteam/Downloads/ripped_from_the_headlines/twitter/index.html",
+		"/Users/webteam/Documents/starter_code415/fashion_blog_part1/css/style.css",
+		"/Users/webteam/Desktop/fashion_blog_part1 2/css/main.css",
+		"/Users/webteam/Documents/starter_code417/layout_challenge/index.html",
+		"/Users/webteam/Documents/starter_code415/fashion_blog_part1/README.md",
+		"/Users/webteam/Desktop/fashion_blog_part1 2/index.html",
+		"/Users/webteam/Documents/starter_code417/layout_challenge/css/style.css",
+		"/Users/webteam/Documents/starter_code415/fashion_blog_part1/indexpart2.html",
+		"/Users/webteam/Documents/starter_code415/fashion_blog_part1/index.html",
+		"/Users/webteam/Documents/starter_code415/fashion_blog_part1/fashionblog.sublime-project",
+		"/Users/webteam/Documents/starter_code417/error_messagee/index.html",
+		"/Users/webteam/Documents/starter_code417/error_messagee/css/style.css",
+		"/Users/webteam/Documents/FEWDDevProjects/style.css",
+		"/Users/webteam/Documents/starter_code415/fashion_blog_part1/style.css",
+		"/Users/webteam/Documents/starter_code415/nested_selectors/index.html",
+		"/Users/webteam/Documents/starter_code415/nested_selectors/css/style.css",
+		"/Users/webteam/Documents/starter_code415/tags_boxes/index.html",
+		"/Users/webteam/Documents/starter_code415/tags_boxes/css/style.css",
+		"/Users/webteam/Documents/CookieRecipe.html",
+		"/Users/webteam/Documents/tracy_resume.html",
+		"/Users/webteam/Documents/Tracyresume.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Resum"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 7518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1361,
+								1361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 733.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								834,
+								834
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 1617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"auto_name": "HTML",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 214.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.745618744787,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/webteam/Documents/FEWDDevProjects/BettyWhite.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/webteam/Documents/starter_code415/fashion_blog_part1/fashionblog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}
