@@ -43,8 +43,6 @@ html {
 }
 
 body {
-  background-image: url(img/download.png);
-  background-repeat:repeat;
     font-size: 11px; 
     font-family: "Lucida Grande", Arial, Verdana; 
     line-height: 14px; 
@@ -73,7 +71,6 @@ body {
 #navcontainer {
       width: 100%;
       float: right;
-      margin: 0 0 3em 0;
       padding: 0;
       background-color: #00cccc;
       border-bottom: 1px solid #ccc; 
@@ -83,14 +80,16 @@ body {
       clear: both;
       }
 #navcontainer li {
-      float: right; }
+      float: right;
+      list-style: none;
+       }
 #navcontainer li a {
       display: block;
-      padding: 8px 15px;
+      padding: 8px 8px;
       text-decoration: none;
       font-weight: bold;
       color: #069;
-      border-right: 1px solid #ccc; }
+       }
 #navcontainer li a:hover {
       color: #c00;
       background-color: #fff; }
@@ -116,7 +115,7 @@ body {
 .main .box {
     float: left;
     width: 22%;
-    margin: 4% 4% 4% 0;
+    margin-left: 10%;
     min-height: 400px;
     padding: 10px;
 }
@@ -348,26 +347,25 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-#headernav { float: none; width: auto;}
-#navigation li { float: none; margin-bottom: 4px; margin-left: 0; }
+#navcontainer { float: none; width: auto;}
+#navcontainer li { float: none; margin-bottom: 4px; margin-left: 0; }
 #body { width: auto; margin-right: 0; margin-top: 0; min-height: 200px;}
             }
 
 @media screen and (max-width: 480px) {
-#left-column {float: none; width: auto;}
+#rhs {float: none; width: auto;}
 #main-column {float: none; width: auto;}
-#right-column {float: none; width: auto;}
         }
 }
 
 @media screen and (max-width: 768px) {
-#headernav { float: none; width: auto;}
-#navigation li { float: none; margin-bottom: 4px; margin-left: 0; }
+#navcontainer { float: none; width: auto;}
+#navcontainer li { float: none; margin-bottom: 4px; margin-left: 0; }
 #body { width: auto; margin-right: 0; margin-top: 0; min-height: 200px;}
             }
 
 @media screen and (max-width: 768px) {
-#left-column {float: none; width: auto;}
+#rhs {float: none; width: auto;}
 #main-column {float: none; width: auto;}
 #right-column {float: none; width: auto;}
         }
